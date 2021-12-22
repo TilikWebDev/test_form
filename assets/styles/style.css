@@ -65,11 +65,15 @@ input {
     margin-bottom: 80px;
 }
 
+.form-wrapper{
+    width: 85%;
+}
+
 .form{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 85%;
+    width: 100%;
 }
 
 .input{
@@ -78,7 +82,6 @@ input {
 
 .input--txt{
     height: 40px;
-    padding-right: 30px;
     border: none;
     border-bottom: 1px solid #C8D1DD;
 }
@@ -163,8 +166,6 @@ input {
 
 .form__el-input:focus {
     outline: none;
-	padding-left: .5em;
-    color: #0066F2;
     border-color: #0066F2;
 }
 
