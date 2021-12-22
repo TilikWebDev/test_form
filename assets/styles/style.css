@@ -91,6 +91,7 @@ input {
 }
 
 .input--btn{
+    cursor: pointer;
     height: 55px;
     border: none;
     border-radius: 5px;
@@ -158,6 +159,7 @@ input {
 }
 
 .form__el-label {
+    pointer-events: none;
 	position: absolute;
 	top: .7em;
 	left: 0;
